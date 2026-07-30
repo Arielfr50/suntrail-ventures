@@ -1,0 +1,23 @@
+SUNTRAIL — GITHUB PAGES PUBLISHING PACKAGE
+==========================================
+
+Upload the CONTENTS of this folder to the root of the main branch in:
+https://github.com/arielfr50/suntrail-ventures
+
+Do not upload the ZIP file itself.
+
+The package includes:
+- index.html — the landing page GitHub Pages opens automatically
+- Coming-Soon.html — the temporary contact-interest page
+- styles.css — all website styling
+- assets — logos and Astus carousel photographs
+- CNAME — preserves www.suntrail-ventures.com
+- .nojekyll — tells GitHub Pages to serve the static website directly
+
+After committing the upload, confirm under Settings > Pages:
+- Source: Deploy from a branch
+- Branch: main
+- Folder: / (root)
+
+Allow up to 10 minutes, then visit:
+https://www.suntrail-ventures.com

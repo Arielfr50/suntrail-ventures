@@ -1,0 +1,54 @@
+SUNTRAIL OFFLINE WEBSITE PREVIEW
+================================
+
+1. Extract the ZIP file on your Windows PC.
+2. Open the extracted "Suntrail-Offline-Preview" folder.
+3. Double-click "Suntrail-Preview.html".
+
+The website will open in your usual browser. Scroll down to see every section.
+The navigation buttons at the top also work.
+
+Important: keep Suntrail-Preview.html, styles.css and the assets folder
+together. The photograph will not appear if they are separated.
+
+This preview does not change or publish www.suntrail-ventures.com.
+
+REVISION 2:
+- The full height of the temporary Astus photograph is visible.
+- The hulls and ASTUS markings are no longer hidden by the wave graphics.
+- SUNTRAIL is now prominent within the hero message.
+- The homepage immediately identifies Suntrail's areas of business.
+
+REVISION 3:
+- Restored the original large sail-like wave graphics.
+- Kept the full Astus hulls above the decorative graphics.
+- Enlarged the description of Suntrail's business.
+- Reframed Suntrail around trailerable sailboats and marine equipment.
+- Reduced the size of "Launch Anywhere — Cruise Everywhere."
+
+REVISION 4:
+- Introduced the official white Suntrail logo in the header and hero.
+- Made Suntrail's business description substantially larger.
+- Reduced the tagline slightly to strengthen the information hierarchy.
+- Enlarged the navigation links and the three supporting messages.
+
+REVISION 5:
+- Removed the duplicate logo from the navigation bar.
+- Moved the main logo upward and made the complete logo visible.
+- Split and centered the two-line business description.
+- Enlarged the two action-button labels to match the navigation.
+
+REVISION 6:
+- Centered the main logo with the two-line business description.
+- Strengthened the business description and reduced the supporting tagline.
+- Expanded the audience message to include adventurers and families alike.
+
+REVISION 7:
+- Replaced the single hero photograph with Astus's seven-photo collection.
+- Photographs rotate automatically every four seconds in one fixed frame.
+- The carousel pauses while the pointer is over it.
+
+REVISION 8:
+- Added Home to the landing-page navigation.
+- Directed the other eight prominent links to a temporary Coming Soon page.
+- Added a contact-interest form that prepares an email to Suntrail.
