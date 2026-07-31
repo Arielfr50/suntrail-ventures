@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Astus | Suntrail</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="model-page">
+    <header class="site-header">
+      <a class="inner-logo" href="index.html#top"
+        ><img src="assets/suntrail-white-logo.png" alt="Suntrail"
+      /></a>
+      <nav>
+        <a href="index.html#top">Home</a>
+        <div class="nav-dropdown">
+          <a class="nav-parent active" href="Boats.html"
+            >Boats <span>⌄</span></a
+          >
+          <div class="nav-submenu">
+            <a href="Boat-Model.html?model=14-5">Astus 14.5</a
+            ><a href="Boat-Model.html?model=16-5">Astus 16.5</a
+            ><a href="Boat-Model.html?model=20-5">Astus 20.5</a
+            ><a href="Boat-Model.html?model=22-5">Astus 22.5</a
+            ><a href="Boat-Model.html?model=26-5">Astus 26.5</a>
+          </div>
+        </div>
+        <a href="Coming-Soon.html">Electric propulsion</a
+        ><a href="Coming-Soon.html">Equipment</a
+        ><a href="Ownership.html">Ownership</a><a href="About.html">About</a
+        ><a href="Contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="model-hero">
+        <div>
+          <p class="label">Astus trailerable trimaran</p>
+          <h1 id="name"></h1>
+          <h2 id="type"></h2>
+          <p id="intro"></p>
+          <div class="actions">
+            <a class="button gold" href="Contact.html">Start a conversation →</a
+            ><a class="button outline" id="brochure" target="_blank"
+              >Download brochure ↓</a
+            >
+          </div>
+        </div>
+        <img id="image" alt="Astus trimaran sailing" />
+      </section>
+      <section class="model-details">
+        <div>
+          <p class="label">Designed for real freedom</p>
+          <h2>A distinct way to experience the water.</h2>
+          <p id="story"></p>
+          <h3>Best suited to</h3>
+          <p id="best"></p>
+        </div>
+        <div class="spec-grid" id="facts"></div>
+      </section>
+      <section class="model-next">
+        <a href="Boats.html">← Explore the complete Astus range</a
+        ><a href="Contact.html">Talk with Suntrail →</a>
+      </section>
+    </main>
+    <script>
+      const d = {
+        "14-5": [
+          "Astus 14.5",
+          "The compact nomad",
+          "assets/astus-carousel/03-astus-14-5.jpg",
+          "The purest expression of trailerable freedom: a remarkably light sailing platform that can travel on a roof rack or small trailer and be rigged as a prao or trimaran.",
+          "Designed by VPLP, the 14.5 returns sailing to its essentials. Its 55-pound center hull, two-part carbon mast and shallow draft make spontaneous outings and quiet-water exploration possible.",
+          "Solo sailors and pairs who value simplicity, portability and direct connection with the water.",
+          [
+            "Model class|14.5 ft",
+            "Exact hull length|14 ft 3 in · 4.35 m",
+            "Center-hull weight|55 lb · 25 kg",
+            "Draft|6–24 in · 0.15–0.60 m",
+          ],
+        ],
+        "16-5": [
+          "Astus 16.5",
+          "The sport enthusiast’s trimaran",
+          "assets/astus-carousel/05-astus-16-5.jpg",
+          "A light, athletic trimaran for sailors who want the immediacy and exhilaration of a performance beach cat—with a broad platform and folding-float practicality.",
+          "The 16.5 rewards the sailor who trims for speed. Its VPLP-designed hulls, rotating wing mast and available sport sail plan create a responsive, energetic boat that accelerates in a fresh breeze and has been described by one owner as “strikingly awesome” to sail. Folding floats still simplify transport, while the generous 86-square-foot platform offers more room than a conventional beach cat.",
+          "Sport-minded sailors—including the Hobie 16 crowd—who value speed, responsiveness and uncomplicated trailerable fun.",
+          [
+            "Model class|16.5 ft",
+            "Exact hull length|16 ft 2 in · 4.94 m",
+            "Light displacement|496 lb · 225 kg",
+            "Folded width|8 ft 2 in · 2.50 m",
+          ],
+        ],
+        "20-5": [
+          "Astus 20.5",
+          "The versatile dayboat",
+          "assets/astus-carousel/04-astus-20-5.jpg",
+          "The boat at the heart of the Suntrail idea: truly trailerable, genuinely habitable for two, and at home on a family afternoon or fast coastal adventure.",
+          "A wide companionway leads to a double forward berth, while the broad sailing platform gives everyone room outside. Pivoting centerboard and rudder support shallow-water exploration and beach approaches.",
+          "Couples and adventurous sailors seeking a towable weekender with real shelter and exhilarating multihull performance.",
+          [
+            "Model class|20.5 ft",
+            "Exact hull length|19 ft 6 in · 5.95 m",
+            "Berths|2 adults",
+            "Folded width|8 ft 2 in · 2.48 m",
+          ],
+        ],
+        "22-5": [
+          "Astus 22.5",
+          "The nomad cruiser",
+          "assets/astus-carousel/07-astus-22-5.jpg",
+          "A transportable coastal cruiser with meaningful living space, four berths and the flexibility to favor comfortable family sailing or sportier performance.",
+          "A double berth forward and two quarter berths accommodate four, while available galley, toilet and electrical options tailor the cabin to coastal trekking.",
+          "Families, couples and sailors who want to stay aboard, travel farther and choose their own balance of comfort and performance.",
+          [
+            "Model class|22.5 ft",
+            "Exact hull length|22 ft 8 in · 6.90 m",
+            "Berths|4",
+            "Trailer width|8 ft 2 in · 2.50 m",
+          ],
+        ],
+        "26-5": [
+          "Astus 26.5",
+          "The ideal fast cruiser",
+          "assets/astus-carousel/02-astus-26-5.jpg",
+          "The flagship: five berths, standing headroom and serious fast-cruising capability in a trimaran that still folds to trailer width.",
+          "A separate double cabin, three saloon berths, galley possibilities and abundant storage support longer escapes. Lines led aft and a protected cockpit create a practical sailing environment for solo sailors or families.",
+          "Independent coastal cruisers and families seeking accommodation, range and performance in a transportable package.",
+          [
+            "Model class|26.5 ft",
+            "Exact hull length|25 ft 11 in · 7.90 m",
+            "Berths|5",
+            "Cabin headroom|5 ft 11 in · 1.80 m",
+          ],
+        ],
+      };
+      let k = new URLSearchParams(location.search).get("model") || "20-5",
+        b = d[k] || d["20-5"];
+      name.textContent = b[0];
+      type.textContent = b[1];
+      image.src = b[2];
+      intro.textContent = b[3];
+      story.textContent = b[4];
+      best.textContent = b[5];
+      brochure.href = "assets/brochures/astus-" + k + ".pdf";
+      facts.innerHTML = b[6]
+        .map((x) => {
+          let p = x.split("|");
+          return "<div><span>" + p[0] + "</span><b>" + p[1] + "</b></div>";
+        })
+        .join("");
+      document.title = b[0] + " | Suntrail";
+    </script>
+  </body>
+</html>

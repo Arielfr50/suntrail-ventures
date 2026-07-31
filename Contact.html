@@ -2,23 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Coming Soon | Suntrail</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Start a Conversation | Suntrail</title>
     <meta
       name="description"
-      content="Suntrail's complete website is coming soon. Contact us to learn more."
+      content="Start a personal conversation with Suntrail."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="coming-page">
     <header class="site-header coming-header">
-      <a
-        class="inner-logo"
-        href="index.html#top"
-        aria-label="Suntrail home"
+      <a class="inner-logo" href="index.html#top"
         ><img src="assets/suntrail-white-logo.png" alt="Suntrail"
       /></a>
-      <nav aria-label="Primary navigation">
+      <nav>
         <a href="index.html#top">Home</a>
         <div class="nav-dropdown">
           <a class="nav-parent" href="Boats.html">Boats <span>⌄</span></a>
@@ -33,24 +30,24 @@
         <a href="Coming-Soon.html">Electric propulsion</a
         ><a href="Coming-Soon.html">Equipment</a
         ><a href="Ownership.html">Ownership</a><a href="About.html">About</a
-        ><a href="Contact.html">Contact</a>
+        ><a class="active" href="Contact.html">Contact</a>
       </nav>
     </header>
     <main class="coming-shell">
       <section class="coming-copy">
-        <p class="label">The journey is beginning</p>
-        <h1>More is <em>coming soon.</em></h1>
+        <p class="label">A personal conversation</p>
+        <h1>Let’s talk <em>about your horizon.</em></h1>
         <p>
-          Suntrail’s electric propulsion and marine equipment sections are being
-          prepared. We would be delighted to keep you informed as testing,
-          product selections and recommendations become available.
+          Tell us how, where and with whom you imagine sailing. Whether you are
+          comparing models, planning an adventure or simply beginning to
+          explore, Suntrail would be delighted to hear from you.
         </p>
         <a class="home-link" href="index.html#top"
           >← Return to the Suntrail home page</a
         >
       </section>
-      <section class="coming-form" aria-labelledby="contact-title">
-        <h2 id="contact-title">Stay in touch.</h2>
+      <section class="coming-form">
+        <h2>Start a conversation.</h2>
         <p>
           Tell us a little about your interests and we will contact you
           personally.
@@ -66,32 +63,27 @@
               type="text"
               name="Name"
               autocomplete="name"
-              required
-          /></label>
-          <label
+              required /></label
+          ><label
             >Email address<input
               type="email"
               name="Email"
               autocomplete="email"
-              required
-          /></label>
-          <label
-            >What interests you?
-            <select name="Interest">
+              required /></label
+          ><label
+            >What interests you?<select name="Interest">
               <option>Astus trailerable trimarans</option>
               <option>Electric propulsion</option>
               <option>Marine equipment</option>
               <option>Suntrail ownership and support</option>
-              <option>General updates</option>
-            </select>
-          </label>
-          <label
+              <option>General inquiry</option>
+            </select></label
+          ><label
             >Message<textarea
               name="Message"
               placeholder="How can Suntrail help?"
-            ></textarea>
-          </label>
-          <button class="button gold" type="submit">
+            ></textarea></label
+          ><button class="button gold" type="submit">
             Send to Suntrail <span>→</span>
           </button>
         </form>
