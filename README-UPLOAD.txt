@@ -1,10 +1,10 @@
-SUNTRAIL WEBSITE — GITHUB PAGES UPLOAD PACKAGE
+SUNTRAIL WEBSITE UPDATE — VERSION 19
 
 Upload every file and the complete assets folder to the root of the
 arielfr50/suntrail-ventures GitHub repository.
 
-Important:
-- Keep index.html named exactly index.html.
-- Keep CNAME in the repository root.
-- Upload the assets folder with all of its contents.
-- GitHub Pages should remain configured to deploy from the main branch root.
+This update adds:
+- phone navigation on every page;
+- direct telephone and email alternatives below the inquiry forms.
+
+Keep index.html and CNAME in the repository root.

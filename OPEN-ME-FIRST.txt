@@ -52,3 +52,21 @@ REVISION 8:
 - Added Home to the landing-page navigation.
 - Directed the other eight prominent links to a temporary Coming Soon page.
 - Added a contact-interest form that prepares an email to Suntrail.
+
+REVISION 9 — PRIVATE WORKING VERSION:
+- Home now ends immediately after the three concluding messages.
+- Removed the former long scrolling sections from the Home page.
+- Future Boats, Propulsion, Equipment, Ownership, About and Contact content
+  will be created as independent pages.
+
+REVISION 10 — BOATS OVERVIEW DRAFT:
+- Added an independent Boats page presenting all five Astus models.
+- Added model positioning, key facts and sailing-experience guidance.
+- Added downloadable full-range and individual model brochures.
+- Connected Home's Boats and Explore Astus links to the private Boats page.
+
+REVISION 11 — BOATS MESSAGE REFINEMENT:
+- Replaced the inner-page text mark with the official white Suntrail logo.
+- Made ASTUS a prominent part of the Boats-page opening.
+- Added balanced messaging for adventurous performance and relaxed enjoyment.
+- Used exceptional stability and limited heeling as the safety language.
